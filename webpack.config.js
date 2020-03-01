@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const validate = require('webpack-validator');
 const {getIfUtils, removeEmpty} = require('webpack-config-utils');
 
+
 module.exports = env => {
   const {ifProd, ifNotProd} = getIfUtils(env)
 
